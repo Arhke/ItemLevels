@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/willi/Desktop/shellext.dll/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="C:/Users/willi/Desktop/shellext.dll/1.8.8/plugins/item-nbt-api-plugin-1.8.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/willi/Desktop/shellext.dll/1.8.8/plugins/worldedit-bukkit-6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/willi/Desktop/shellext.dll/1.8.8/plugins/EffectLib-4.2.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

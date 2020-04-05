@@ -1,0 +1,6 @@
+main: me.crz.minecraft.itemsystem.ItemPlugin
+version: 1.0
+name: ItemLevels
+commands:
+  itemlevel:
+    description: Main ItemLevels Command

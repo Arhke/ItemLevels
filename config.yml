@@ -1,0 +1,1038 @@
+#######
+#ItemLevels Spigot 1.8.8 Plugin
+#by Arhke
+#Please use seconds for the units of active time and cooldown
+#Please use integers for the percentage chance values (i.e. 40% => 40) 
+######
+souldbcost: 10
+actives:
+  timber:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  toss:
+    cooldown: 10
+    activetime: 10
+    activetime30: 15
+    cooldown30: 15
+  bolt:
+    cooldown: 10
+    activetime: 10
+    activetime30: 15
+    cooldown30: 15
+  shuffle:
+    cooldown: 10
+    activetime: 10
+    activetime30: 15
+    cooldown30: 15
+  reserve:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  crush:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  veinmine:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  excavation:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  treasure:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+    command: say (┛◉Д◉)┛彡┻━┻ Fix the config Seiza!!!!!
+  slay:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  slam:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  rage:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  insight:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  multishot:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  explosive:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  firework:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+  poison_arrow:
+    cooldown: 10
+    activetime: 10
+    activetime30: 15
+    cooldown30: 15
+  auto_fire:
+    activetime: 10
+    cooldown: 10
+    activetime30: 15
+    cooldown30: 15
+passivechances:
+  sword:
+    level1:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 1
+    level2:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 1
+    level3:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 1
+    level4:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 1
+    level5:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 2
+    level6:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 2
+    level7:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 2
+    level8:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 2
+    level9:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 2
+    level10:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 3
+    level11:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 3
+    level12:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 3
+    level13:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 3
+    level14:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 3
+    level15:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 4
+    level16:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 4
+    level17:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 4
+    level18:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 4
+    level19:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 4
+    level20:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 5
+    level21:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 5
+    level22:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 5
+    level23:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 5
+    level24:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 5
+    level25:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 6
+    level26:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 6
+    level27:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 6
+    level28:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 6
+    level29:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 6
+    level30:
+      mobbleed: 20
+      playerbleed: 70
+      enchantmentslots: 7
+  axe:
+    level1:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 1
+    level2:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 1
+    level3:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 1
+    level4:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 1
+    level5:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 2
+    level6:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 2
+    level7:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 2
+    level8:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 2
+    level9:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 2
+    level10:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 3
+    level11:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 3
+    level12:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 3
+    level13:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 3
+    level14:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 3
+    level15:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 4
+    level16:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 4
+    level17:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 4
+    level18:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 4
+    level19:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 4
+    level20:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 5
+    level21:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 5
+    level22:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 5
+    level23:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 5
+    level24:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 5
+    level25:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 6
+    level26:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 6
+    level27:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 6
+    level28:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 6
+    level29:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 6
+    level30:
+      doubledrop: 40
+      goldenapple: 70
+      doubledamage: 70
+      enchantmentslots: 7
+  pickaxe:
+    level1:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 1
+    level2:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 1
+    level3:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 1
+    level4:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 1
+    level5:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 2
+    level6:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 2
+    level7:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 2
+    level8:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 2
+    level9:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 2
+    level10:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 3
+    level11:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 3
+    level12:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 3
+    level13:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 3
+    level14:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 3
+    level15:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 4
+    level16:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 4
+    level17:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 4
+    level18:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 4
+    level19:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 4
+    level20:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 5
+    level21:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 5
+    level22:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 5
+    level23:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 5
+    level24:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 5
+    level25:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 6
+    level26:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 6
+    level27:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 6
+    level28:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 6
+    level29:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 6
+    level30:
+      irondrops: 35
+      golddrops: 25
+      diamonddrops: 15
+      emeralddrops: 5
+      spread: 10
+      enchantmentslots: 7
+  shovel:
+    level1:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 1
+    level2:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 1
+    level3:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 1
+    level4:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 1
+    level5:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 2
+    level6:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 2
+    level7:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 2
+    level8:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 2
+    level9:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 2
+    level10:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 3
+    level11:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 3
+    level12:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 3
+    level13:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 3
+    level14:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 3
+    level15:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 4
+    level16:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 4
+    level17:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 4
+    level18:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 4
+    level19:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 4
+    level20:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 5
+    level21:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 5
+    level22:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 5
+    level23:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 5
+    level24:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 5
+    level25:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 6
+    level26:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 6
+    level27:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 6
+    level28:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 6
+    level29:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 6
+    level30:
+      doubledrop: 35
+      expdrop: 25
+      enchantmentslots: 7
+  bow:
+    level1:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 1
+    level2:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 1
+    level3:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 1
+    level4:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 1
+    level5:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 2
+    level6:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 2
+    level7:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 2
+    level8:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 2
+    level9:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 2
+    level10:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 3
+    level11:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 3
+    level12:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 3
+    level13:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 3
+    level14:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 3
+    level15:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 4
+    level16:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 4
+    level17:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 4
+    level18:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 4
+    level19:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 4
+    level20:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 5
+    level21:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 5
+    level22:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 5
+    level23:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 5
+    level24:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 5
+    level25:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 6
+    level26:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 6
+    level27:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 6
+    level28:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 6
+    level29:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 6
+    level30:
+      infinity: 40
+      lightning: 15
+      slowness: 5
+      enchantmentslots: 7
+passivechance:
+  armor:
+    level1:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level2:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level3:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level4:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level5:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level6:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level7:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level8:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level9:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level10:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level11:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level12:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level13:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level14:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level15:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level16:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level17:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level18:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level19:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level20:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level21:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level22:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level23:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level24:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level25:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level26:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level27:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level28:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level29:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+    level30:
+      dodge: 20
+      fire: 15
+      blind: 5
+      enchantmentslots: 7
+xp:
+  level1xp: 500
+  level2xp: 500
+  level3xp: 500
+  level4xp: 500
+  level5xp: 500
+  level6xp: 500
+  level7xp: 500
+  level8xp: 500
+  level9xp: 500
+  level10xp: 500
+  level11xp: 500
+  level12xp: 500
+  level13xp: 500
+  level14xp: 500
+  level15xp: 500
+  level16xp: 500
+  level17xp: 500
+  level18xp: 500
+  level19xp: 500
+  level20xp: 500
+  level21xp: 500
+  level22xp: 500
+  level23xp: 500
+  level24xp: 500
+  level25xp: 500
+  level26xp: 500
+  level27xp: 500
+  level28xp: 500
+  level29xp: 500
+  level30xp: 500
